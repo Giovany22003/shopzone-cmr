@@ -44,7 +44,7 @@ const ProduitList = (/*{AjoutFavorites}*/) => {
       <h1>Liste des Produits</h1>
       <p>Notre sélection de produits soigneusement choisis est conçue pour répondre à vos besoins et préférences. Chaque article de notre collection représente notre engagement envers la qualité, la fonctionnalité et le style. Que vous recherchiez des essentiels du quotidien ou quelque chose d'unique, nous avons quelque chose<br></br>
        pour tous les goûts et toutes les exigences.</p>
-      <div  className="produit-list-container">
+      <div  className="produit">
         {currentProducts.map((product) => (
           <ProductCart
             key={product.id}
