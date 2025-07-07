@@ -1,0 +1,6 @@
+
+
+.image-container img {
+  max-width: 100%; /* S'assure que les images ne débordent pas */
+  height: auto; /* Conserve les proportions */
+}

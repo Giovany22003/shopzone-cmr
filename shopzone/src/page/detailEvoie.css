@@ -1,0 +1,18 @@
+.form{
+  
+  border: #ff5722;
+  border-radius: 12px;
+
+}
+
+
+.return,.forget{
+    color: black;
+     cursor: pointer;
+     transition: background-color 0.3s ease; /* Transition douce */
+}
+.return,.forget:hover{
+    color: #ff5722;
+   
+   
+}

@@ -1,0 +1,21 @@
+.product-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.product-card {
+  flex: 0 1 calc(50% - 24px);
+  box-sizing: border-box;
+  max-width: 350px;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: aqua;
+}
+.section{
+    background-color: rgb(203, 203, 203);
+}
