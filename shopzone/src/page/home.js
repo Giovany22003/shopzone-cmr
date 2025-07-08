@@ -5,7 +5,7 @@ import { FaSquarePhone } from "react-icons/fa6";
 import { SiGmail } from "react-icons/si";
 import './home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import photo1 from './photo1.jpeg';
+import TSHIRT1 from './tshirt1.jpeg';
 import photo2 from './photo2.jpeg';
 import photo3 from './photo3.jpeg';
 import photo4 from './photo4.jpeg';
@@ -18,19 +18,19 @@ function Home() {
         <section className="collection">
           
           <div className="products">
-            <div className="product-item">
-              <img src={photo1} alt="photo1" />
+            <div className="product-item ">
+              <Link to={'/Vetement1'}><img src={TSHIRT1} alt="tshirt1" /></Link>
               
             </div>
-            <div className="product-item">
-              <img src={photo2} alt="photo2" />
+            <div className="product-item ">
+             <Link to={'/Vetement2'}><img src={photo2} alt="photo2" /></Link>
             </div>
             <div className="product-item">
-              <img src={photo3} alt="photo3" />
+            <Link to={'/Vetement3'}><img src={photo3} alt="photo3" /></Link> 
             </div>
 
              <div className="product-item">
-              <img src={photo4} alt="photo4" />
+              <Link to={'/Vetement4'}><img src={photo4} alt="photo4" /></Link>
             </div>
           </div>
       

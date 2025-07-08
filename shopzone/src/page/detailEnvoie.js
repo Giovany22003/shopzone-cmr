@@ -1,4 +1,4 @@
-import './detailEvoie.css'
+import './DetailEvoie.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 

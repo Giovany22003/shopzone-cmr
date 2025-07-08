@@ -1,3 +1,11 @@
-h1,.phase{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.phase{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+}
+h1{
+    color: rgb(234, 112, 67);
+    font-family: 'Times New Roman', Times, serif;
+    
+    
 }

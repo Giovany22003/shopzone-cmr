@@ -5,12 +5,12 @@ import './produitList.css';
 
 const ProduitList = (/*{AjoutFavorites}*/) => {
   const products = [
-    { id: 1, name: "Chemise", image: "/Tip1.jpeg", price: 5000, sizes: ['S', 'M', 'L'] },
-    { id: 2, name: "T-Shirt", image: "/Tip4.jpeg", price: 6000, sizes: ['M', 'L', 'XL'] },
-    { id: 3, name: "Polo", image: "/Tip3.jpeg", price: 8000, sizes: ['S', 'M', 'L'] },
-     { id: 4, name: "Chemise", image: "/Tip1.jpeg", price: 5000, sizes: ['S', 'M', 'L'] },
-      { id: 5, name: "Chemise n1", image: "/Tip1.jpeg", price: 5000, sizes: ['S', 'M', 'L'] },
-       { id: 6, name: "Chemise n2", image: "/Tip1.jpeg", price: 5000, sizes: ['S', 'M', 'L'] },
+    { di: 1, name: "Chemise", image: "pull1.jpeg", price: 5000, sizes: ['S', 'M', 'L'] },
+    { di: 2, name: "T-Shirt", image: "polo2.jpeg", price: 6000, sizes: ['M', 'L', 'XL'] },
+    { di: 3, name: "Polo", image: "polo1.jpeg", price: 8000, sizes: ['S', 'M', 'L'] },
+     { di: 4, name: "Chemise", image: "tshirt1.jpeg", price: 5000, sizes: ['S', 'M', 'L'] },
+      { di: 5, name: "Chemise n1", image: "pull2.jpeg", price: 5000, sizes: ['S', 'M', 'L'] },
+       { di: 6, name: "Chemise n2", image: "tshirt3.jpeg", price: 5000, sizes: ['S', 'M', 'L'] },
     // Ajoutez d'autres produits ici
   ]; 
 
@@ -47,7 +47,7 @@ const ProduitList = (/*{AjoutFavorites}*/) => {
       <div  className="produit">
         {currentProducts.map((product) => (
           <ProductCart
-            key={product.id}
+            key={product.di}
             product={product}
             AjoutAuPanier={AjoutAuPanier}
             AjoutFavorites={AjoutAuxFavorites}

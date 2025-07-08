@@ -19,7 +19,7 @@ const ProductCart = ({ product, AjoutAuPanier, AjoutFavorites }) => {
       onMouseLeave={() => setSurvoler(false)}
         style={{ position: 'relative', margin: '20px' }}
     >
-      <img className=""
+      <img 
         src={product.image} alt='#'/>
       <h3>{product.name}</h3>
       <p>{product.price} XFA</p>

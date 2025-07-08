@@ -1,0 +1,79 @@
+.product-item1 ,img{
+    width: 200px; /* Choisissez la largeur souhaitée */
+    height: auto; /* Garde les proportions */
+    object-fit: cover;
+    border-radius: 16px; /* Ajoute un arrondi aux coins */
+    /*transition: transform 0.3s ease;*/ /* Ajoute une transition pour l'effet de zoom */
+    transition: transform 0.3s, box-shadow 0.3s; /* Animation au survol */
+    
+}
+.product-item1 img:hover {
+    transform: scale(1.1); /* Zoom léger au survol */
+    cursor: pointer; /* Change le curseur pour indiquer que l'image est cliquable */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre au survol */
+}   
+.collection1{
+    background-color: #cfcece;
+}
+/*.product {
+  display: flex;
+  justify-content: center;
+}*/
+/*.product-item1 {
+  margin: 10px;
+  text-align: center;
+}*/
+
+.image3{
+    display: flex;
+    margin-left: 25%;
+    margin-top: 30px;
+
+
+}
+.ros{
+    display: flex;
+      margin-left: 25%;
+    margin-top: 30px;
+
+
+}
+.ros div{
+    margin-left: 30px;
+}
+.image3 div{
+ margin-left: 30px;
+}
+button{
+    border-radius: 15px;
+     transition: background-color 0.3s, transform 0.3s; /* Animation */
+}
+button:hover{
+    background-color: #f63b03;
+     transform: translateY(-2px); /* Légère montée au survol */
+}
+
+h1{
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+ font-weight: bolder;
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.like{
+     background-color: transparent; /* Fond transparent */
+  
+  color: #ff6f61; /* Couleur du texte */
+  padding: 8px 12px; /* Espacement */
+  
+  transition: background-color 0.3s, color 0.3s; /* Animation */
+}
+.like:hover {
+  background-color: #ff6f61; /* Couleur de fond au survol */
+  color: white; /* Couleur du texte au survol */
+}

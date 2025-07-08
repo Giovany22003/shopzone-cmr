@@ -11,7 +11,12 @@ import Faq from "./page/faq.js";
 import Panier from "./component/panier.js";
 import { Button } from 'bootstrap';
 import Connexion from './page/connexion.js';
-import Envoie from './page/detailEnvoie.js';
+import DEtailEnvoie from './DetailEnvoie.js';
+import Vetement1  from './page/Vetement1.js';
+import Vetement2 from './page/Vetement2.js';
+import Vetement3 from './page/Vetement3.js';
+import Vetement4  from './page/Vetement4.js';
+
 
 
 
@@ -35,7 +40,13 @@ function App() {
           <Route path='/articles' element={<Button/>}/>
           <Route path='/connexion'element={<Connexion/>}/>
             <Route path="/inscription" element={<Inscription/>}/>
-            <Route path='/detailEnvoie.js' element={<Envoie/>}/>
+           
+           <Route path='/Vetement1' element={<Vetement1/>} />
+          <Route path='/Vetement2' element={<Vetement2/>} />
+           <Route path='/Vetement3' element={<Vetement3 />} />
+           <Route path='/Vetement4' element={<Vetement4 />} />
+          <Route path='/DetailEnvoie.js' element={<DEtailEnvoie/>}/>
+           
 
          
         </Routes>

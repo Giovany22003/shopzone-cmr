@@ -12,6 +12,16 @@
 .collection{
     background-color: #cfcece;
 }
+.products {
+  display: flex;
+  justify-content: center;
+}
+
+.product-item {
+  margin: 10px;
+  text-align: center;
+}
+
 h3 {
     text-align: center;
     font-size: 24px;
@@ -58,15 +68,6 @@ h3 {
   padding: 20px;
 }
 
-.products {
-  display: flex;
-  justify-content: center;
-}
-
-.product-item {
-  margin: 10px;
-  text-align: center;
-}
 
 span ,a{
     color: black;

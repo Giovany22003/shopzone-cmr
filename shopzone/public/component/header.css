@@ -1,0 +1,28 @@
+.AppNav {
+  text-align: center;
+}
+.picture{
+    width: 160px; /* Ajustez la largeur selon vos besoins */
+    height: auto; /* Garde les proportions */
+}
+
+.hero1{
+    background-color: #ff5722;
+}
+.hero1 h2{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Header nav ul li a{
+    color: #161515;
+    text-decoration: none;
+}
+.Header nav ul li a:hover {
+    color: #ff5722; /* Couleur au survol */
+    text-decoration: none;
+    cursor: pointer; 
+   
+}
